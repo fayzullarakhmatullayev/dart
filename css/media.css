@@ -1,0 +1,267 @@
+@media (max-width:1199.98px){
+    .feedback__content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feedback__item{
+        margin: 0 auto 30px;
+    }
+}
+@media (max-width:991.98px){
+    section{
+        padding: 50px 0;
+    }
+    .signup{
+        display: none;
+    }
+    .navbar-nav .sign{
+        display: inline-block; 
+    }
+    .header__left{
+        width: 470px;
+    }
+    
+  .statistics{
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .stat__items{
+      flex: 50%;
+  }
+  .header__title{
+    width: 300px;
+    font-size: 35px;
+    line-height: 40px;
+}
+.header__subtitle{
+    font-size: 14px;
+    line-height: 25px;
+}
+  .text,
+  .useful__text{
+      margin-bottom: 50px;
+  }
+  .team-arrow-left{
+    left: -50px;
+}
+.team-arrow-right{
+    right: -50px;
+}
+
+}
+@media (max-width:767.98px){
+    .navbar{
+        margin-bottom: 30px;
+    }
+    .header__content{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header__title,
+    .header__subtitle
+    {
+        margin: 0 auto 15px;
+    }
+    header .section__btn,
+    section .section__btn{
+        padding: 10px 15px !important;
+        margin-bottom: 30px;
+    } 
+    .header__right{
+        width: 450px;
+        height: 250px;
+    }
+    header{
+        padding-bottom: 30px;
+    }
+    .title{
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .subtitle{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .slider{
+        width: 600px;
+    }
+    .clients__text{
+        width: 400px;
+    }
+    .team-arrow-left{
+        left: -20px;
+    }
+    .team-arrow-right{
+        right: -20px;
+    }
+    .team{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .slider-nav{
+        width: 400px;
+    }
+    .team__content{
+       width: 450px;
+    }
+    .team__img img{
+        width: 70px;
+        height: 70px;
+        margin-top: 38px;
+    }
+    .team__members .slick-current img{
+        width: 120px;
+        height: 120px;
+        border: 15px solid #fff;
+    }
+    .contact form{
+        flex-direction: column;
+    }
+    .contact input{
+        width: 100%;
+    }
+    .contact{
+        padding: 20px;
+    }
+    .checkbox input{
+        width: 15px;
+        height: 15px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .checkbox p{
+        width: 300px;
+        padding-bottom: 20px;
+    }
+    
+    .contact__button{
+        width: 130px;
+        height: 43px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer__top,
+    .footer__bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__menu li a{
+        font-size: 14px;
+    }
+    .footer__menu li:not(:last-child){
+        margin-right: 10px;
+    }
+    .footer__top,
+    .footer__top img,
+    .privecy__menu{
+        margin-bottom: 20px;
+    }
+    footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .privecy__menu li:not(:last-child){
+        margin-right: 15px;
+    }
+}
+@media (max-width:575.98px){
+    
+    section,
+    header{
+        padding: 20px 0;
+    }   
+    .header__left{
+        width: 300px;
+    }
+    .header__right{
+        width: 300px;
+        height: 200px;
+    }
+    .header__title{
+        width: 280px;
+        font-size: 30px;
+        line-height: 30px;
+    } 
+    .stat__items{
+        flex: 100%;
+    }
+    .text,
+    .useful__text{
+        margin-bottom: 30px;
+    }
+    .useful__img{
+        margin-bottom: 20px;
+    }
+    .card-body-items{
+        flex-direction: column;
+    }
+    .card-body-items img{
+        margin: 0 0 20px;
+    }
+    .card-body-items p{
+        text-align: justify;
+    }
+    .clients__content{
+        flex-direction: column;
+        
+    }
+    .clients__content img{
+        margin: 0 auto 25px;
+    }
+    .arrow-top img{
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .arrow-down img{
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .clients__text{
+        width: 290px;
+    }
+    .feedbacks{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .feedback__title{
+        font-size: 25px;
+    }
+    .feedback__subtitle{
+        margin-bottom: 30px;
+    }
+    .feedbacks .blue{
+        margin: 0;
+    }
+    .slider{
+        width: 290px;
+    }
+    .slider-nav{
+        width: 290px;
+    }
+    .team .text{
+        margin-bottom: 30px;
+    }
+    .team__content{
+        width: 290px;
+     }
+     .team__img img{
+         width: 40px;
+         height: 40px;
+         margin-top: 38px;
+     }
+     .team__members .slick-current img{
+         width: 100px;
+         height: 100px;
+         border: 10px solid #fff;
+     }
+     .team-arrow-left{
+        left: 0px;
+    }
+    .team-arrow-right{
+        right: 0px;
+    }
+    
+}
